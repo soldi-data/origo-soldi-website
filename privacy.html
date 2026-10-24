@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Origo Soldi LLC</title>
+<meta name="description" content="How Origo Soldi LLC handles information on origosoldi.com and in its internal advertising tools, including the Meta app SOLDI Data Pipeline v2.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #F5F0E8;
+    --dark: #1A1A1A;
+    --gold: #C4963A;
+    --warm: #8B6F47;
+    --light: #FAF7F2;
+  }
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--cream);
+    color: var(--dark);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+    background: rgba(245, 240, 232, 0.9);
+    border-bottom: 1px solid rgba(196, 150, 58, 0.15);
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+  }
+
+  .logo-mark { width: 40px; height: 40px; }
+
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+  }
+
+  .logo-text span:first-child {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--dark);
+    letter-spacing: 0.05em;
+  }
+
+  .logo-text span:last-child {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .langs { display: flex; gap: 24px; }
+
+  .langs a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  .langs a:hover { opacity: 1; color: var(--gold); }
+
+  /* CONTENT */
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 80px 24px 100px;
+  }
+
+  .policy + .policy {
+    margin-top: 80px;
+    padding-top: 80px;
+    border-top: 1px solid rgba(196, 150, 58, 0.25);
+  }
+
+  .section-tag {
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .section-tag::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(40px, 6vw, 56px);
+    font-weight: 300;
+    line-height: 1.1;
+  }
+
+  .updated {
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    color: var(--warm);
+    margin-top: 12px;
+  }
+
+  .gold-line {
+    width: 48px;
+    height: 1px;
+    background: var(--gold);
+    margin: 28px 0;
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 40px 0 12px;
+  }
+
+  p, li {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--warm);
+  }
+
+  p { margin-bottom: 16px; }
+
+  ul { margin: 0 0 16px 20px; }
+
+  strong { font-weight: 500; color: var(--dark); }
+
+  a { color: var(--dark); }
+
+  a:hover { color: var(--gold); }
+
+  /* FOOTER */
+  footer {
+    background: var(--dark);
+    color: var(--cream);
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(196, 150, 58, 0.2);
+  }
+
+  footer p { color: rgba(245, 240, 232, 0.4); font-size: 13px; margin: 0; }
+
+  footer a { color: rgba(245, 240, 232, 0.6); }
+
+  .footer-logo { display: flex; align-items: center; gap: 10px; }
+
+  .footer-logo span {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: var(--cream);
+  }
+
+  @media (max-width: 768px) {
+    nav { padding: 16px; }
+    main { padding: 56px 16px 72px; }
+    footer { flex-direction: column; gap: 16px; padding: 32px 16px; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="logo">
+    <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="20" cy="20" r="18" stroke="#C4963A" stroke-width="1.5"/>
+      <path d="M12 20 L20 12 L28 20 L20 28 Z" stroke="#C4963A" stroke-width="1.5" fill="none"/>
+      <circle cx="20" cy="20" r="3" fill="#C4963A"/>
+      <path d="M20 8 L20 12 M20 28 L20 32 M8 20 L12 20 M28 20 L32 20" stroke="#C4963A" stroke-width="1" opacity="0.5"/>
+    </svg>
+    <div class="logo-text">
+      <span>Origo Soldi</span>
+      <span>LLC</span>
+    </div>
+  </a>
+  <div class="langs">
+    <a href="#en">English</a>
+    <a href="#es">Español</a>
+  </div>
+</nav>
+
+<main>
+
+  <article class="policy" id="en" lang="en">
+    <div class="section-tag">Legal</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: October 24, 2026</p>
+    <div class="gold-line"></div>
+
+    <p>This policy explains how Origo Soldi LLC ("we") handles information on this website and in the internal tools we use to run our advertising, including our Meta app <strong>"SOLDI Data Pipeline v2"</strong>.</p>
+
+    <h2>1. What our Meta app does</h2>
+    <p>Our app connects to Meta's Marketing API with access granted by our own business portfolio. We use it only to read the results of our own ads and to create and manage ads in our own ad accounts. Only our team uses it: it is not offered to the public and it does not use Facebook Login.</p>
+
+    <h2>2. Information we process</h2>
+    <ul>
+      <li>Advertising information from our own accounts: names of campaigns, ad sets and ads, budgets, and delivery and cost results.</li>
+      <li>Aggregated statistics reported by Meta, such as results by age range, gender or region, which do not identify any person.</li>
+    </ul>
+    <p>We do not collect names, contact details, messages, friend lists or any other information that identifies Facebook or Instagram users.</p>
+
+    <h2>3. How we use it</h2>
+    <p>Only to measure and improve our own advertising and to prepare internal reports. We do not sell this information or share it with third parties, except with the cloud providers that host our database and reports, who process it on our behalf.</p>
+
+    <h2>4. Storage and security</h2>
+    <p>The information is stored in a private cloud database. Only authorized members of our team can access it, and access keys are kept as protected server secrets. We keep it while it is useful for our business analysis.</p>
+
+    <h2>5. This website</h2>
+    <p>origosoldi.com has no forms, user accounts or tracking cookies. Fonts are loaded from Google Fonts.</p>
+
+    <h2 id="data-deletion">6. Data deletion</h2>
+    <p>Our app does not store personal data of Facebook or Instagram users. If you believe we hold information about you, or you want it deleted, write to <a href="mailto:jmartin@origosoldi.com?subject=Data%20deletion">jmartin@origosoldi.com</a> with the subject "Data deletion". We will answer within 30 days.</p>
+
+    <h2>7. Contact</h2>
+    <p>Origo Soldi LLC · <a href="mailto:jmartin@origosoldi.com">jmartin@origosoldi.com</a> · United States</p>
+
+    <h2>Changes</h2>
+    <p>If we change this policy, we will update this page and its date.</p>
+  </article>
+
+  <article class="policy" id="es" lang="es">
+    <div class="section-tag">Legal</div>
+    <h1>Política de privacidad</h1>
+    <p class="updated">Última actualización: 24 de octubre de 2026</p>
+    <div class="gold-line"></div>
+
+    <p>Esta política explica cómo Origo Soldi LLC («nosotros») trata la información en este sitio y en las herramientas internas que usamos para manejar nuestra publicidad, incluida nuestra app de Meta <strong>«SOLDI Data Pipeline v2»</strong>.</p>
+
+    <h2>1. Qué hace nuestra app de Meta</h2>
+    <p>Se conecta a la API de marketing de Meta con el acceso que le da nuestro propio portafolio comercial. La usamos solo para leer los resultados de nuestros propios anuncios y para crear y manejar anuncios en nuestras propias cuentas publicitarias. Solo la usa nuestro equipo: no se ofrece al público ni usa el inicio de sesión con Facebook.</p>
+
+    <h2>2. Qué información tratamos</h2>
+    <ul>
+      <li>Información publicitaria de nuestras cuentas: nombres de campañas, conjuntos y anuncios, presupuestos, y resultados de entrega y costo.</li>
+      <li>Estadísticas agrupadas que entrega Meta, como resultados por rango de edad, género o región, que no identifican a ninguna persona.</li>
+    </ul>
+    <p>No recogemos nombres, datos de contacto, mensajes, listas de amigos ni ninguna otra información que identifique a usuarios de Facebook o Instagram.</p>
+
+    <h2>3. Para qué la usamos</h2>
+    <p>Solo para medir y mejorar nuestra propia publicidad y para preparar reportes internos. No la vendemos ni la compartimos con terceros, salvo con los proveedores de nube que alojan nuestra base de datos y nuestros reportes, que la tratan por cuenta nuestra.</p>
+
+    <h2>4. Dónde se guarda y cómo se protege</h2>
+    <p>En una base de datos privada en la nube. Solo entran personas autorizadas de nuestro equipo y las llaves de acceso se guardan como secretos protegidos del servidor. La conservamos mientras sirva para el análisis del negocio.</p>
+
+    <h2>5. Este sitio web</h2>
+    <p>origosoldi.com no tiene formularios, cuentas de usuario ni cookies de seguimiento. Las fuentes de letra se cargan desde Google Fonts.</p>
+
+    <h2 id="eliminacion-de-datos">6. Eliminación de datos</h2>
+    <p>Nuestra app no guarda datos personales de usuarios de Facebook o Instagram. Si crees que tenemos información tuya o quieres que la borremos, escribe a <a href="mailto:jmartin@origosoldi.com?subject=Eliminaci%C3%B3n%20de%20datos">jmartin@origosoldi.com</a> con el asunto «Eliminación de datos». Respondemos en un máximo de 30 días.</p>
+
+    <h2>7. Contacto</h2>
+    <p>Origo Soldi LLC · <a href="mailto:jmartin@origosoldi.com">jmartin@origosoldi.com</a> · Estados Unidos</p>
+
+    <h2>Cambios</h2>
+    <p>Si cambiamos esta política, actualizamos esta página y su fecha.</p>
+  </article>
+
+</main>
+
+<footer>
+  <div class="footer-logo">
+    <svg width="24" height="24" viewBox="0 0 40 40" fill="none">
+      <circle cx="20" cy="20" r="18" stroke="#C4963A" stroke-width="1.5"/>
+      <path d="M12 20 L20 12 L28 20 L20 28 Z" stroke="#C4963A" stroke-width="1.5" fill="none"/>
+      <circle cx="20" cy="20" r="3" fill="#C4963A"/>
+    </svg>
+    <span>Origo Soldi LLC</span>
+  </div>
+  <p>© 2026 Origo Soldi LLC. All rights reserved.</p>
+  <p><a href="/">Home</a></p>
+</footer>
+
+</body>
+</html>
